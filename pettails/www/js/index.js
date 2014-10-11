@@ -45,6 +45,9 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+        setTimeout(function(){
+            window.location.href="options.html";
+        },1000);
     }
 };
 
