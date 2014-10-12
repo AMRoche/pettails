@@ -1,4 +1,4 @@
-C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\pettails.ap_ \
+C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\PetTails.ap_ \
  : C:\xampp\htdocs\pettails\pettails\platforms\android\res\drawable\dog_chasing_tail.jpg \
 C:\xampp\htdocs\pettails\pettails\platforms\android\res\drawable\dog_chasing_tail_splash.png \
 C:\xampp\htdocs\pettails\pettails\platforms\android\res\drawable\icon.png \
@@ -23,7 +23,6 @@ C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\img \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\index.html \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\js \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\managepet.html \
-C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\options.html \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\plugins \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\settings.html \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\css\dog-chasing-tail.psd \

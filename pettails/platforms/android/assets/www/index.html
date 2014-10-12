@@ -35,13 +35,29 @@
     </head>
     <body>
         <div class="row app twelve columns">
-            <img src="img/dog-chasing-tail.jpg"/ class="row centered">
-            <h1>PetTails</h1>
-            <div id="deviceready" class=" row blink ten columns centered">
-                <p class="row event listening centered">Loading...</p>
-                <p class="event received centered">
-                Loaded</p>
-            </div>
+            <h1>Actions</h1>
+            <ul>
+<li>
+                <div class="xlarge warning btn row centered twelve columns">
+                <a href="addpet.html">Add a pet</a>
+                </div>
+</li>
+<li>
+                <div class="xlarge warning btn row centered twelve columns">
+                <a href="managepet.html">Manage your pets</a>
+                </div>
+</li>
+<li>
+                <div class="xlarge warning btn row centered twelve columns">
+                <a href="findpet.html">Find your pets</a>
+                </div>
+</li>
+<li>
+                <div class="xlarge warning btn row centered twelve columns">
+                <a href="settings.html">Settings</a>
+                </div>
+                </li>
+            </ul>
         </div>
 
             <!-- Grab Google CDN's jQuery, fall back to local if offline -->
@@ -78,6 +94,7 @@
     <script src="js/libs/ui/gumby.navbar.js"></script>
     <script src="js/libs/ui/jquery.validation.js"></script>
     <script src="js/libs/gumby.init.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script src="../platforms/android/assets/www/plugins/com.oracle.mx.ux.cordova.estimotebeacons/www/EstimoteBeacons.js"></script>
+    <script src="js/index.js" type="text/javascript"></script>
     </body>
 </html>

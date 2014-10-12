@@ -5,7 +5,7 @@ C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\classes\com\oracle
 C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\classes\com\oracle\mx\ux\cordova\estimotebeacons\EstimoteBeacons$4.class \
 C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\classes\com\oracle\mx\ux\cordova\estimotebeacons\EstimoteBeacons.class \
 C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\classes\com\pettails\android\AMRoche\BuildConfig.class \
-C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\classes\com\pettails\android\AMRoche\pettails.class \
+C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\classes\com\pettails\android\AMRoche\PetTails.class \
 C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\classes\com\pettails\android\AMRoche\R$attr.class \
 C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\classes\com\pettails\android\AMRoche\R$drawable.class \
 C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\classes\com\pettails\android\AMRoche\R$string.class \

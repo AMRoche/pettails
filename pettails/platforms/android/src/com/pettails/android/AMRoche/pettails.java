@@ -22,7 +22,7 @@ package com.pettails.android.AMRoche;
 import android.os.Bundle;
 import org.apache.cordova.*;
 
-public class pettails extends CordovaActivity
+public class PetTails extends CordovaActivity
 {
     @Override
     public void onCreate(Bundle savedInstanceState)

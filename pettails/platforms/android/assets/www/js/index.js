@@ -1,60 +1,57 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
+var myInterval;
+
+var EstimoteBeacons = EstimoteBeacons;
+
+function startRangingBeaconsInRegionCallback() {
+  console.log('Start ranging beacons...');
+
+  // Every now and then get the list of beacons in range
+  myInterval = setInterval(function() {
+    EstimoteBeacons.getBeacons(function(beacons) {
+      console.log('Getting beacons...');
+      for(var i = 0, l = beacons.length; i < l; i++) {
+        var beacon = beacons[i];
+        // beacon contains major, minor, rssi, macAddress, measuredPower, etc.
+        console.log('beacon:', beacon);
+      }
+    });
+  }, 3000);
+}
+
 var app = {
-    // Application Constructor
-    initialize: function() {
-        this.bindEvents();
-    },
-    // Bind Event Listeners
-    //
-    // Bind any events that are required on startup. Common events are:
-    // 'load', 'deviceready', 'offline', and 'online'.
-    bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
-    },
-    // deviceready Event Handler
-    //
-    // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicitly call 'app.receivedEvent(...);'
-    onDeviceReady: function() {
-        app.receivedEvent('deviceready');
-    },
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        alert('id');
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
+  bindEvents: function() {
+    console.log('events bound!');
+    window.addEventListener('load', this.onDeviceReady);
+  },
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+  initialize: function() {
+    console.log('initialising!');
+    this.bindEvents();
+  },
 
-        console.log('Received Event: ' + id);
-    }
+  onDeviceReady: function() {
+    console.log('Kick it, Kick it real good!');
+    document.removeEventListener('deviceready', app.onDeviceReady);
+
+    if(!EstimoteBeacons) return;
+    console.log('Estimoooooooooote!');
+
+    document.addEventListener('pause', app.onPause);
+    document.addEventListener('resume', app.onResume);
+
+    EstimoteBeacons.startRangingBeaconsInRegion(startRangingBeaconsInRegionCallback);
+  },
+
+  onPause: function() {
+    EstimoteBeacons.stopRangingBeaconsInRegion(function() {
+      console.log('Stop ranging beacons...');
+    });
+    clearInterval(myInterval);
+  },
+
+  onResume: function() {
+    EstimoteBeacons.startRangingBeaconsInRegion(startRangingBeaconsInRegionCallback);
+  }
 };
 
 app.initialize();
-
-       setTimeout(function(){
-            window.location.href="options.html";
-        },5000);
-
-// document.addEventListener('deviceready',function(){
-
-// });
