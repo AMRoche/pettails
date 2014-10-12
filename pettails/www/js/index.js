@@ -51,9 +51,6 @@ var app = {
 
 app.initialize();
 
-       setTimeout(function(){
-            window.location.href="options.html";
-        },5000);
 
 // document.addEventListener('deviceready',function(){
 
