@@ -21,6 +21,7 @@ C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\res\drawable-port-
 C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\res\drawable-port-xhdpi\screen.png \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\_where-is-www.txt \
+C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\addpet.html \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\config.xml \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\cordova.js \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\cordova_plugins.js \
@@ -30,7 +31,9 @@ C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\fonts \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\img \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\index.html \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\js \
+C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\managepet.html \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\options.html \
+C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\settings.html \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\css\gumby.css \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\css\index.css \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\css\style.css \
