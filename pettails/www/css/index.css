@@ -43,6 +43,50 @@ body {
     margin-bottom:10px !important;
 }
 
+#addpetpush{
+    margin-top:200px;
+}
+
+#soddingstubbornbutton
+{
+    float:right;
+}
+
+.add {
+}
+
+.add li{
+    min-height:50px !important;
+    height:auto;
+    margin-bottom:20px !important;
+}
+
+.add li input{
+    height:60px !important;
+}
+
+.add li textarea {
+    height:180px !important;
+}
+
+.add li input, .add li textarea {
+    font-size:36px !important;
+    line-height:40px;
+}
+
+#submit{
+
+padding-top:30px;
+padding-bottom:30px;
+width:100%;
+font-weight:bold;
+
+}
+
+#addpet{
+
+}
+
 #mainpage{
     margin-top:300px;
 }
@@ -59,6 +103,26 @@ td, th{
 thead{
     font-size:36px !important;
     padding:5px;
+}
+
+::-webkit-input-placeholder {
+    font-size:36px !important;
+    text-align:center !important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-size:36px !important;
+    text-align:center !important;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    font-size:36px !important;
+    text-align:center !important;
+}
+
+:-ms-input-placeholder {
+    font-size:36px !important;
+    text-align:center !important;
 }
 
 .app{

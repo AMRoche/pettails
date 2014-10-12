@@ -27,6 +27,14 @@ function startRangingBeaconsInRegionCallback() {
   }, timer);
 }
 
+if(document.getElementById('idbutton')!==null)
+{
+    document.getElementById('idbutton').addEventListener('click',function(){
+        document.getElementById('tagid').innerHTML = newTagData[0]['proximityUUID'];
+        document.getElementById('tagid').value = newTagData[0]['proximityUUID'];
+    });
+}
+
 var createTable = function(element){
     var a;
     var toGoTo = newTagData.length;

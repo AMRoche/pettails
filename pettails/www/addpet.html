@@ -25,9 +25,9 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/gumby.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
 
         <title>PetTails</title>
         <script src="js/libs/modernizr-2.6.2.min.js"></script>
@@ -35,34 +35,43 @@
         <script type="text/javascript" src="cordova.js"></script>
     </head>
     <body>
-        <div class="row app twelve columns">
-            <h1>Actions</h1>
-            <ul>
-<li>
-                <div class="xlarge warning btn row centered twelve columns">
-                <a href="addpet.html">Add a pet</a>
-                </div>
-</li>
-<li>
-                <div class="xlarge warning btn row centered twelve columns">
-                <a href="managepet.html">Manage your pets</a>
-                </div>
-</li>
-<li>
-                <div class="xlarge warning btn row centered twelve columns">
-                <a href="findpet.html">Find your pets</a>
-                </div>
-</li>
-<!--
-<li>
-                <div class="xlarge warning btn row centered twelve columns">
-                <a href="settings.html">Settings</a>
-                </div>
-                </li>
--->
-            </ul>
+        <div class="two columns btn warning large">
+            <a href="index.html">BACK</a>
+        </div>
+        <div class="ten columns">
+            <h2>ADD YOUR PET</H2>
         </div>
 
+
+    <div class="app add push_one ten columns">
+<ul>
+    <li>
+    <ul id='addpet' class="">
+    <li class="field">
+      <input class="input" type="text" placeholder="What's your pets name?" />
+    </li>
+    <li class="field">
+      <input class="input" type="text" placeholder="What kind of animal is your pet?" />
+    </li>
+    <li class="field">
+        <textarea class="input textarea" placeholder="What makes your pet stand out?"></textarea>
+    </li>
+    <li class="field">
+        <textarea class="input textarea" placeholder="How can we contact you in an emergency?"></textarea>
+    </li>
+    <li class="field">
+        <textarea id='tagid' class="input textarea" placeholder="Your pet's new tag ID"></textarea>
+    </li>
+    <li id='idbutton' class='btn warning large twelve columns'>
+        <a href='#'>Hold the tag next to your phone and tap here</a>
+    </li>
+    <li id='submit' class='btn warning large twelve columns'>
+        <a href='#'>SUBMIT</a>
+    </li>
+    </ul>
+    </div>
+</li>
+</ul>
             <!-- Grab Google CDN's jQuery, fall back to local if offline -->
     <!-- 2.0 for modern browsers, 1.10 for .oldie -->
     <script>
