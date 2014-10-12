@@ -4,6 +4,7 @@
 
 var exec = require('cordova/exec');
 
+console.log('motherfucking estimotebeacons');
 // ======================
 // Constants
 // ======================

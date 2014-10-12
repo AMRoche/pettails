@@ -4,6 +4,7 @@ cordova.define("com.oracle.mx.ux.cordova.estimotebeacons.EstimoteBeacons", funct
 
 var exec = require('cordova/exec');
 
+console.log('motherfucking estimotebeacons');
 // ======================
 // Constants
 // ======================

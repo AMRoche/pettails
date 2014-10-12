@@ -1,37 +1,73 @@
 var myInterval;
-
-var EstimoteBeacons = EstimoteBeacons;
-
+var timer = 3000;
+var tagData = [];
 function startRangingBeaconsInRegionCallback() {
   console.log('Start ranging beacons...');
 
   // Every now and then get the list of beacons in range
   myInterval = setInterval(function() {
     EstimoteBeacons.getBeacons(function(beacons) {
-      console.log('Getting beacons...');
-      for(var i = 0, l = beacons.length; i < l; i++) {
-        var beacon = beacons[i];
-        // beacon contains major, minor, rssi, macAddress, measuredPower, etc.
-        console.log('beacon:', beacon);
-      }
+      tagData = beacons;
     });
-  }, 3000);
+  }, timer);
 }
+
+var dummyPets = [
+    {
+        name:'George',
+        animal:'Tortoise',
+    },
+    {
+        name:'Tim',
+        animal:'Dog',
+    },
+    {
+        name:'Percy',
+        animal:'Fish'
+    },
+    {
+        name:'Toby',
+        animal:'Dog'
+    },
+    {
+        name: 'Amy',
+        animal: 'Duck'
+    },
+    {
+        name: 'Stuart',
+        animal: 'Lizard'
+    },
+    {
+        name: 'Sir Hisss',
+        animal: 'Snake'
+    }
+];
+
+var User = {
+    firstName: Alex,
+    lastName: Roche,
+    pets: [
+        dummyPets[3],
+        dummyPets[6]
+    ],
+    username: 'AMRoche',
+    password: 'test'
+};
 
 var app = {
   bindEvents: function() {
-    console.log('events bound!');
     window.addEventListener('load', this.onDeviceReady);
   },
 
   initialize: function() {
-    console.log('initialising!');
     this.bindEvents();
   },
 
   onDeviceReady: function() {
+
+//    EBeacons = cordova.require('cordova/plugin/com.oracle.mx.ux.cordova.estimotebeacons.EstimoteBeacons');
     console.log('Kick it, Kick it real good!');
-    document.removeEventListener('deviceready', app.onDeviceReady);
+    window.removeEventListener('load', app.onDeviceReady);
 
     if(!EstimoteBeacons) return;
     console.log('Estimoooooooooote!');
