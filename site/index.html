@@ -105,6 +105,12 @@ h1, h2, h3, h4, h5, h6 {
 	.content img{
 		margin-left:50px;
 	}
+	.content form{
+		float:left;
+		margin-left:50px;
+		border: black solid 2px;
+		padding:10px;
+	}
 	</style>
 </head>
 
@@ -115,18 +121,20 @@ h1, h2, h3, h4, h5, h6 {
 		<li style="float:left;"><a href="#home">-/ Home</a></li>
 		<li style="float:left;"><a href="#inspiration">-/ Inspiration</a></li>
 		<li style="float:left;"><a href="#technologies">-/ Technologies</a></li>
-		<li style="float:left;"><a href="../pettails/platforms/android/out/PetTails-debug-unaligned.apk">-/ Download App</a></li>
+		<li style="float:left;"><a href="../pettails/platforms/android/out/PetTails-debug-unaligned.apk">		-/ Download App</a></li>
+		<li style="float:left;"><a href="#membership">-/ Membership</a></li>
+
 	</ul>
 	</div>
 
-	<div class="right">
+<!-- 	<div class="right">
 	<ul>
 		<li style="float:right;"><div class="btn medium warning"><a href="#">Login</a></div></li>
 		<li style="float:right;"><input type="password" placeholder="Password"></input></li>
 		<li style="float:right;"><input type="text" placeholder="Username"></input></li>
 	</ul>
 	</div>
-</header>
+ --></header>
 
 <div id="body" style="height:auto;" class="row">
 	<div class="centered twelve columns">
@@ -134,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 			<img width='300px' height='300px' align="right"
  src='img/dog-chasing-tail.jpg'></img>
 
-			<h2 id="home">petstails</h2>
+			<h2 id="home">pettails</h2>
 			<p>Who are you and what is this?</p>
 			<p>I'm Alex Roche, and this is petstails. Petstails is an app and service to help you re-unite
 				confused and concerned owners with their wonderful animal friends.</p>
@@ -161,6 +169,34 @@ h1, h2, h3, h4, h5, h6 {
 				<li>PHP</li>
 			</ul>
 			</p>
+			<h2 id="Membership">Membership</h2>
+
+			<?php
+			if( isset($_GET['failure']) && $_GET['failure'] == 1)
+			{
+			?>
+			<p class='error' style="font-weight:bold; color:red;">Sadly, we were unable to process your transaction at the moment.</p>
+			<?php
+			}
+			?>
+
+			<p> Sadly, we are unable to offer full membership at the moment, as we're still in Beta testing at the moment. However, if you wish to pre-purchase a membership for when we do come out of Beta, you are more than welcome to, and offer Paypal payment as an opportunity.</p>
+			<p> We can also offer a Beta version of the proposed application, which is available from the download link at the top of the page. </p>
+			<p>
+				<form action="paypal/start.php" method="GET">
+				<label for 'payment_types'>If you are interested, please select your membership duration.</label>
+				<select style="float:left; clear:left;" name="payment_types" id="selectBox">
+					<option value="15">1 Month, £15</option>
+					<option value="40">3 Month, £40</option>
+					<option value="65">6 Month, £65</option>
+					<option value="110">12 Month, £110</option>
+					<option value="170">18 Month, £170</option>
+				</select>
+				<input type="submit" style=" margin-top:10px; padding-left:5px !important; padding-right:5px !important; float:left; clear:left;"class="btn warning large">
+				</form>
+			</p>
+
+			<p style="clear:left; float:left;"> Thank you, and we look forwards to serving you in the future! </p>
 		</div>
 	</div>
 </div>
