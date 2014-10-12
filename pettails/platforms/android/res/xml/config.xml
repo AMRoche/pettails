@@ -16,8 +16,12 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <icon src="img/dog-chasing-tail.jpg" />
-    <preference name="Orientation" value="portrait" />
+    <icon src="www/img/dog-chasing-tail.jpg" />
+    <icon density="ldpi" platform="android" src="www/img/dog-chasing-tail.jpg" />
+    <icon density="mdpi" platform="android" src="www/img/dog-chasing-tail.jpg" />
+    <icon density="hdpi" platform="android" src="www/img/dog-chasing-tail.jpg" />
+    <icon density="xhdpi" platform="android" src="www/img/dog-chasing-tail.jpg" />
+    <preference name="Orientation" value="Portrait" />
     <preference name="SplashScreen" value="dog_chasing_tail_splash" />
     <preference name="SplashScreenDelay" value="10000" />
     <splash height="629" src="www/img/dog-chasing-tail-splash.png" width="473" />

@@ -1,16 +1,31 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.pettails.android.AMRoche" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>pettails</name>
+    <name>PetTails</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        An app to find your dearly beloved pet if they go missing. Works in conjunction with Estimote technology.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="alexandermichaelroche@gmail.com" href="http://twitter.com/alexHacked">
+        Alexander Roche
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <icon src="img/dog-chasing-tail.jpg"/>
-    <preference name="Orientation" value="portrait" />
+    <icon src="www/img/dog-chasing-tail.jpg"/>
+<!--
+    Default icon should work, but cordova don't overwrite
+    the default on all densities
+-->
+<icon src="www/img/dog-chasing-tail.jpg" platform="android" density="ldpi" />
+<icon src="www/img/dog-chasing-tail.jpg" platform="android" density="mdpi" />
+<icon src="www/img/dog-chasing-tail.jpg" platform="android" density="hdpi" />
+<icon src="www/img/dog-chasing-tail.jpg" platform="android" density="xhdpi" />
+
+
+
+
+
+
+
+    <preference name="Orientation" value="Portrait" />
     <preference name="SplashScreen" value="dog_chasing_tail_splash" />
 	<preference name="SplashScreenDelay" value="10000" />
 	<splash src="www/img/dog-chasing-tail-splash.png" width="473" height="629" />

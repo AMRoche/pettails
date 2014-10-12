@@ -9,7 +9,19 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <icon src="img/dog-chasing-tail.jpg"/>
+    <access origin="*" />
+
+    <icon src="www/img/dog-chasing-tail.jpg"/>
+<!--
+    Default icon should work, but cordova don't overwrite
+    the default on all densities
+-->
+<icon src="www/img/dog-chasing-tail.jpg" platform="android" density="ldpi" />
+<icon src="www/img/dog-chasing-tail.jpg" platform="android" density="mdpi" />
+<icon src="www/img/dog-chasing-tail.jpg" platform="android" density="hdpi" />
+<icon src="www/img/dog-chasing-tail.jpg" platform="android" density="xhdpi" />
+
+
     <preference name="Orientation" value="portrait" />
     <preference name="SplashScreen" value="dog_chasing_tail_splash" />
     <preference name="SplashScreenDelay" value="10000" />
