@@ -24,6 +24,6 @@
 
     <preference name="Orientation" value="portrait" />
     <preference name="SplashScreen" value="dog_chasing_tail_splash" />
-    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="SplashScreenDelay" value="5000" />
     <splash src="www/img/dog-chasing-tail-splash.png" width="473" height="629"/>
 </widget>
