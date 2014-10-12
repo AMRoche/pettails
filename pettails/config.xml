@@ -10,4 +10,8 @@
     <content src="index.html" />
     <access origin="*" />
     <icon src="img/dog-chasing-tail.jpg"/>
+    <preference name="Orientation" value="portrait" />
+    <preference name="SplashScreen" value="dog_chasing_tail_splash" />
+	<preference name="SplashScreenDelay" value="10000" />
+	<splash src="www/img/dog-chasing-tail-splash.png" width="473" height="629" />
 </widget>

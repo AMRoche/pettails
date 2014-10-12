@@ -1,24 +1,11 @@
 C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\pettails.ap_ \
- : C:\xampp\htdocs\pettails\pettails\platforms\android\res\drawable\icon.png \
-C:\xampp\htdocs\pettails\pettails\platforms\android\res\drawable-land-hdpi\screen.png \
-C:\xampp\htdocs\pettails\pettails\platforms\android\res\drawable-land-ldpi\screen.png \
-C:\xampp\htdocs\pettails\pettails\platforms\android\res\drawable-land-mdpi\screen.png \
-C:\xampp\htdocs\pettails\pettails\platforms\android\res\drawable-land-xhdpi\screen.png \
-C:\xampp\htdocs\pettails\pettails\platforms\android\res\drawable-port-hdpi\screen.png \
-C:\xampp\htdocs\pettails\pettails\platforms\android\res\drawable-port-ldpi\screen.png \
-C:\xampp\htdocs\pettails\pettails\platforms\android\res\drawable-port-mdpi\screen.png \
-C:\xampp\htdocs\pettails\pettails\platforms\android\res\drawable-port-xhdpi\screen.png \
+ : C:\xampp\htdocs\pettails\pettails\platforms\android\res\drawable\dog_chasing_tail.jpg \
+C:\xampp\htdocs\pettails\pettails\platforms\android\res\drawable\dog_chasing_tail_splash.png \
+C:\xampp\htdocs\pettails\pettails\platforms\android\res\drawable\icon.png \
 C:\xampp\htdocs\pettails\pettails\platforms\android\res\values\strings.xml \
 C:\xampp\htdocs\pettails\pettails\platforms\android\res\xml\config.xml \
+C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\res\drawable\dog_chasing_tail_splash.png \
 C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\res\drawable\icon.png \
-C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\res\drawable-land-hdpi\screen.png \
-C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\res\drawable-land-ldpi\screen.png \
-C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\res\drawable-land-mdpi\screen.png \
-C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\res\drawable-land-xhdpi\screen.png \
-C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\res\drawable-port-hdpi\screen.png \
-C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\res\drawable-port-ldpi\screen.png \
-C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\res\drawable-port-mdpi\screen.png \
-C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\res\drawable-port-xhdpi\screen.png \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\_where-is-www.txt \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\addpet.html \
@@ -33,7 +20,9 @@ C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\index.html \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\js \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\managepet.html \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\options.html \
+C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\plugins \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\settings.html \
+C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\css\dog-chasing-tail.psd \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\css\gumby.css \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\css\index.css \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\css\style.css \
@@ -41,6 +30,7 @@ C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\fonts\icons \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\fonts\icons\entypo.eot \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\fonts\icons\entypo.ttf \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\fonts\icons\entypo.woff \
+C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\img\dog-chasing-tail-splash.png \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\img\dog-chasing-tail.jpg \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\img\gumby_mainlogo.png \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\img\gumby_mainlogo@2x.png \
@@ -69,4 +59,10 @@ C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\js\libs\ui\gumby.
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\js\libs\ui\gumby.tabs.js \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\js\libs\ui\gumby.toggleswitch.js \
 C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\js\libs\ui\jquery.validation.js \
+C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\plugins\com.oracle.mx.ux.cordova.estimotebeacons \
+C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\plugins\org.apache.cordova.splashscreen \
+C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\plugins\com.oracle.mx.ux.cordova.estimotebeacons\www \
+C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\plugins\com.oracle.mx.ux.cordova.estimotebeacons\www\EstimoteBeacons.js \
+C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\plugins\org.apache.cordova.splashscreen\www \
+C:\xampp\htdocs\pettails\pettails\platforms\android\assets\www\plugins\org.apache.cordova.splashscreen\www\splashscreen.js \
 C:\xampp\htdocs\pettails\pettails\platforms\android\ant-build\AndroidManifest.xml \
